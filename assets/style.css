@@ -136,7 +136,8 @@ ul a:hover:after{
 }
 
 .intro-img img{
-  width: 70rem;
+  max-width: 70rem;
+  height: auto;
 }
 
 .intro-text, .intro-img{
@@ -167,4 +168,54 @@ ul a:hover:after{
 .texts{
   display: flex;
   text-align: center;
+}
+
+.texts h3{
+  margin-right: 2.3rem;
+  margin-bottom: 10rem;
+  transform: rotate(10deg);
+}
+
+.text-h2{
+  text-align: center;
+}
+
+.gallery{
+  display: flex;
+  flex-direction: column;
+  padding-top: 8rem;
+}
+
+.intro-gallery h2{
+  text-align: center;
+}
+
+.pictures{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.photo{
+  margin: .8rem;
+  height: 30rem;
+  overflow: hidden;
+  width: 100%;
+  max-width: 36rem;
+  max-height: 36rem;
+}
+
+.photo img{
+  transition: all .3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+}
+
+.photo img:hover{
+  transform: scale(1.2) rotate(-6deg);
+  ;
 }
