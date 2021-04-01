@@ -420,7 +420,7 @@ transition: 1s;
     width: 30rem;
   }
   .main-content{
-    max-width: 30rem;
+    max-width: 100vh;
   }
 
   .text-h2 h2, .text-h2 p {
@@ -429,10 +429,6 @@ transition: 1s;
   }
 
   .menu-mobile{
-    width: 70%;
-  }
-
-  .white-bg , .main-bg{
     width: 100vh;
   }
 }
