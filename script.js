@@ -6,3 +6,11 @@ function oi() {btn.addEventListener('click', () => {
 })}
 
 oi()
+
+const menuMobile = () => {
+  document.getElementById('menu-mobile-ul').addEventListener('click', () => {
+    mobile.classList.remove('show-menu')
+  })
+}
+
+menuMobile()

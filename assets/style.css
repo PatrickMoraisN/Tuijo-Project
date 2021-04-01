@@ -395,4 +395,21 @@ transition: 1s;
   #menu-screen{
     display: none;
   }
+
+  .menu-space{
+    display: none;
+  }
+
+  input{
+    height: 3rem;
+    width: 30rem;
+    margin: 1rem;
+    margin-right: 2rem;
+  }
+  
+  textarea{
+    background-color: rgba(180, 106, 250, 0.425);
+    width: 30rem;
+  }
+
 }
