@@ -17,12 +17,12 @@
   <nav class="menu">
     <div class="main-content">
       <h1>Tuijo</h1>
-      <ul>
+      <ul id="menu-screen">
         <li><a href="#intro">Intro</a></li>
         <li><a href="#top">Top 3</a></li>
         <li><a href="#grid-one">Adipisicing</a></li>
         <li><a href="#gallery"">Gallery</a></li>
-        <li><a href="http://">Contact</a></li>
+        <li><a href=" #form">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -42,7 +42,7 @@
       </div>
 
       <div class="intro-img">
-        <img src="./assets/img/undraw_in_progress_ql66.svg" alt="Mulher arrumando engrenagens" srcset="">
+        <img src="./assets/img/undraw_in_progress_ql66.svg" alt="Mulher arrumando engrenagens" srcset="" id="img1">
       </div>
     </div>
   </section>
@@ -98,9 +98,9 @@
     </div>
   </section>
 
-  <section class=" white-bg section">
+  <section class=" white-bg section" id="gallery">
     <div class="gallery">
-      <div class="intro-gallery" id="gallery">
+      <div class="intro-gallery">
         <h2>Gallery</h2>
       </div>
       <div class="pictures">
@@ -126,6 +126,64 @@
     </div>
   </section>
 
+  <section class="contact-section main-bg section" id="form">
+    <div class="main-content intro-content contact">
+      <div class="intro-text text-contact">
+        <h2>Contact us!!</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Vitae, ab numquam tempore ex suscipit reiciendis a error.</p>
+      </div>
+
+      <div class="intro-img intro-img-form">
+        <img src="./assets/img/undraw_delivery_address_03n0.svg" alt="Mulher arrumando engrenagens" srcset="">
+      </div>
+    </div>
+    <div class="contact-form">
+      <form action="" id="form">
+
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Name.." id="name">
+        <br>
+
+        <label for="Last-name">Last name
+          <input type="text" name="Last-name" placeholder="Last name.." id="Last-name">
+          <br>
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="" placeholder="Email.." id="email">
+          <br>
+
+          <label for="Message" id="message">Message</label>
+          <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+          <Br>
+
+          <button type="submit">Send message!</button>
+      </form>
+    </div>
+
+  </section>
+
+  <div class="mobile">
+    <div class="hamburguer">
+      <div class="line1 line"></div>
+      <div class="line2 line"></div>
+      <div class="line3 line"></div>
+    </div>
+    <div class="menu-mobile">
+      <ul>
+        <li><a href="#intro">Intro</a></li><br>
+        <li><a href="#top">Top 3</a></li><br>
+        <li><a href="#grid-one">Adipisicing</a></li><br>
+        <li><a href="#gallery"">Gallery</a></li><br>
+      <li><a href=" #form">Contact</a></li><br>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>Feito com ❤ por Patrick</p>
+  </footer>
+  <script src="./script.js"></script>
 </body>
 
 </html>
