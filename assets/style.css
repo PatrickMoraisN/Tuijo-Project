@@ -205,15 +205,15 @@ ul a:hover:after{
   margin: .8rem;
   height: 30rem;
   overflow: hidden;
-  width: 100%;
-  max-width: 36rem;
-  max-height: 36rem;
 }
 
 .photo img{
   transition: all .3s ease-in-out;
   background-size: cover;
   background-position: center;
+  width: 100%;
+  max-width: 36rem;
+  max-height: 36rem;
 }
 
 .photo img:hover{
