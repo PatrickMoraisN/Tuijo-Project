@@ -151,7 +151,7 @@ ul a:hover:after{
   text-align: center;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   align-items: center;
 }
 
@@ -397,7 +397,7 @@ transition: 1s;
   }
 
   .menu-space{
-    display: none;
+    height: 5rem
   }
 
   input{
@@ -411,5 +411,28 @@ transition: 1s;
     background-color: rgba(180, 106, 250, 0.425);
     width: 30rem;
   }
+  
+  #img-form{
+    width: 30rem;
+  }
 
+  .photo{
+    width: 30rem;
+  }
+  .main-content{
+    max-width: 30rem;
+  }
+
+  .text-h2 h2, .text-h2 p {
+    width: 30rem;
+    word-wrap: break-word;
+  }
+
+  .menu-mobile{
+    width: 70%;
+  }
+
+  .white-bg , .main-bg{
+    width: 100vh;
+  }
 }
